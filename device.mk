@@ -311,8 +311,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libjson \
     libril \
-    librilutils \
-    librmnetctl
+    librilutils
 
 # Recovery
 PRODUCT_PACKAGES += \
