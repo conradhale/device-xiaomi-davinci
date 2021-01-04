@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Inherit from MiuiCamera vendor
+$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
+
 PRODUCT_NAME := octavi_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
