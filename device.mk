@@ -347,7 +347,8 @@ PRODUCT_USES_QCOM_HARDWARE := true
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
