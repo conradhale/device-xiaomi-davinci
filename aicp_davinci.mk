@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
+TARGET_FACE_UNLOCK_SUPPORTED := true
 PRODUCT_NAME := aicp_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
